@@ -103,12 +103,13 @@ a {
 
 
 /* first-main-section */
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .first-main-section {
     padding: 66.8227px 100.234px;
     width: 100%;
@@ -192,29 +193,31 @@ main{
     order: 0;
     flex-grow: 0;
     /* background-color: aquamarine; */
-    
+
 
 }
+
 .first-suitable-for h2,
-.second-suitable-for h2 ,
-.third-suitable-for h2{
+.second-suitable-for h2,
+.third-suitable-for h2 {
     font-size: 19.49px;
     text-align: center;
 
-} 
+}
+
 .first-suitable-for p,
 .second-suitable-for p,
-.third-suitable-for p{
+.third-suitable-for p {
     font-size: 9.74px;
     text-align: center;
 
-} 
+}
 
 
 
 /* fourth-section-learn-more */
 
-.fourth-section-learn-more{
+.fourth-section-learn-more {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -223,36 +226,107 @@ main{
     width: 100%;
 
 }
-.learm-more-section{
+
+.learm-more-section {
     width: 460.1px;
     height: 187.9px;
 }
 
 /* statistics */
-.statistics{
+.statistics {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     width: 100%;
 }
-.statistics-numbers{
+
+.statistics-numbers {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    
+
 
 }
+
 .members,
-.clubs, 
-.event-booking, 
-.payment{
+.clubs,
+.event-booking,
+.payment {
     display: flex;
     flex-direction: row;
     margin-right: 21px;
     margin-top: 28px;
 }
-.span-green{
+
+.span-green {
     color: #4CAF4F;
+}
+
+.caring-is-the-new-marketing {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.caring-is-the-new-marketing h2 {
+    text-align: center;
+
+}
+
+.caring-is-the-new-marketing p {
+    text-align: center;
+
+}
+
+.text-on-photo {
+    width: 220.65px;
+    height: 123.55px;
+    background: #F5F7FA;
+    box-shadow: 0px 5.56856px 11.1371px rgba(171, 190, 209, 0.4);
+    border-radius: 5.56856px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11.1371px;
+    z-index: 2;
+    position: relative;
+    bottom: 60px;
+
+
+
+}
+
+.three-section-of-nexcent-Divvv {
+    /* 1 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    margin: 0 auto;
+    width: 256.15px;
+    height: 255.8px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 44.5484px 114.851px;
+    width: 100%;
+    height: 229.21px;
+    background: #263238;
+
 }
