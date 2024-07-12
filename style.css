@@ -1,14 +1,17 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    
+    
 }
 
 body {
     display: flex;
     justify-content: center;
     background-color: #F5F7FA;
+    font-family: sans-serif;
+    
 }
 
 .page {
@@ -509,6 +512,8 @@ main {
 
 
 
+
+
 .learm-more-section {
     width: 460.1px;
     height: 187.9px;
@@ -577,9 +582,10 @@ main {
 
 
 }
-.statistics-numbers div{
+
+.statistics-numbers div {
     margin-bottom: 27.84px;
-    
+
 
 
 }
@@ -618,20 +624,148 @@ main {
     color: #4CAF4F;
 }
 
+/* ============================================= */
+/* ============================================= */
+.tim-smith-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22.2742px 100.234px;
+    background: #F5F7FA;
+    height: 271.47px;
+    margin-bottom: 33.41px;
+
+}
+
+.tim-photo {
+    margin-right: 54.29px;
+}
+
+
+
+.tim-text p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.1371px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #717171;
+
+}
+
+.p-with-span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.9214px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #4CAF4F;
+
+}
+
+.tim-meet-all-customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 520.66px;
+    height: 33.41px;
+
+}
+
+.tim-meet-all-customers .log-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 343.16px;
+    align-items: center;
+    /* width: 520.66px;
+    height: 33.41px; */
+    /* padding-left: 28.54px; */
+    /* background-color: #4CAF4F; */
+
+}
+
+.tim-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.56856px;
+    gap: 5.57px;
+
+    width: 155.22px;
+    height: 31.14px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+
+
+.tim-button div {
+    display: flex;
+    flex-direction: row;
+}
+
+.tim-button div button {
+    border: none;
+    background-color: inherit;
+
+    color: #4CAF4F;
+    margin-right: 5.57px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.9214px;
+    line-height: 19px;
+    align-items: center;
+    color: #4CAF4F;
+
+
+}
+
+/* ============================================= */
+/* ============================================= */
+
 .caring-is-the-new-marketing {
     width: 100%;
     background-color: #FFFFFF;
+    padding-bottom: 40px;
 }
 
 .caring-is-the-new-marketing h2 {
     text-align: center;
 
-}
-
-.caring-is-the-new-marketing p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.0585px;
+    line-height: 31px;
     text-align: center;
+    color: #4D4D4D;
+
 
 }
+
+.caring-first-p {
+    text-align: center;
+    margin-bottom: 14.14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.1371px;
+    line-height: 17px;
+    text-align: center;
+    color: #717171;
+
+
+}
+
 
 .text-on-photo {
     width: 220.65px;
@@ -645,16 +779,25 @@ main {
     padding: 11.1371px;
     z-index: 2;
     position: relative;
-    bottom: 60px;
+    bottom: 70px;
 
 
 
 }
 
-.three-section-of-nexcent-Divvv {
-    /* 1 */
+.text-on-photo p {
 
-    /* Auto layout */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.9214px;
+    line-height: 19px;
+    text-align: center;
+    color: #717171;
+
+}
+
+.three-section-of-nexcent-Divvv {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -665,22 +808,262 @@ main {
     height: 255.8px;
 
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+}
+
+.pellentesque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22.2742px 0px;
+    gap: 22.27px;
+    width: 100%;
+    /* height: 209.31px; */
+    background: #F5F7FA;
+    /* margin-bottom: 22.27px; */
+
+}
+
+
+.pellentesque h2 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.5484px;
+    line-height: 53px;
+    text-align: center;
+    color: #263238;
+    margin-top: 30px;
+    /* margin-bottom: 22.27px; */
+
+
 
 
 }
+
+.pellentesque-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9.74497px 22.2742px;
+    gap: 5.57px;
+    /* width: 124.25px; */
+    height: 36.49px;
+    background: #4CAF4F;
+    border-radius: 2.78428px;
+
+
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.1371px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
 
 /* Footer */
 footer {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     padding: 44.5484px 114.851px;
     width: 100%;
     height: 229.21px;
     background: #263238;
 
 }
+
+.company-info {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 27.84px;
+
+    width: 243.62px;
+    height: 132.18px;
+
+}
+
+.rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 5.57px;
+
+    width: 243.62px;
+    height: 33.57px;
+
+}
+
+
+
+.first-rights {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9.74497px;
+    line-height: 14px;
+    color: #F5F7FA;
+
+}
+
+.second-rights {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9.74497px;
+    line-height: 14px;
+    color: #F5F7FA;
+
+
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 122.51px;
+    height: 22.27px;
+
+}
+
+
+
+.social-media div {
+    background-color: #717171;
+    width: 22.27px;
+    height: 22.27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 442px;
+    height: 140.12px;
+
+}
+
+
+.company p,
+.support p,
+.stay-up-to-date p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.9214px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: #F5F7FA;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9.74497px;
+    line-height: 14px;
+}
+
+.links ul li {
+    list-style-type: none;
+
+}
+
+.support div ul,
+.company div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 111.37px;
+    height: 103.41px;
+
+}
+
+.support,
+.company,
+.stay-up-to-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stay-up-to-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16.71px;
+
+    width: 177.5px;
+    height: 64.55px;
+
+}
+
+.stay-up-to-date div {
+
+    width: 177.5px;
+    height: 27.84px;
+    background-color: #717171;
+    border-radius: 5.56856px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+
+}
+
+.stay-up-to-date div input {
+    background-color: inherit;
+    border: none;
+
+
+
+
+
+}
+
+.stay-up-to-date div input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.74497px;
+    line-height: 14px;
+    color: #D9DBE1;
+
+}
+h3{
+    /* padding-left: 10px; */
+    font-size: 10px;
+    color: #D9DBE1;
+}
+/* .stay-img{
+    padding-right: 10px;
+
+} */
